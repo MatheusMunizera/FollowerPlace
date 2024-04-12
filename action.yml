@@ -1,6 +1,13 @@
 # ====================================================================================
 # Inputs and configuration
-
+inputs:
+  user:
+    description: 'GitHub Username'
+    required: true
+  token:
+    description: 'Token for GitHub Gists Access'
+    required: true
+    
 # ====================================================================================
 # Action metadata
 name: FollowerPlace embed
@@ -12,4 +19,6 @@ branding:
 
 runs:
   using: 'node20'
+  pre: |
+    npm install
   main: 'src/index.js'
