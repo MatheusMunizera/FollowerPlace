@@ -6,7 +6,7 @@ const github = require('@actions/github');
 const { Octokit } = require("@octokit/rest");
 
 const username = core.getInput('user');
-const gitHubToken = core.getInput('gitHubToken');
+const gitHubToken = core.getInput('token');
 const gistsDescription = "Gists for FollowerPlace"
 
 const octokit = new Octokit({
