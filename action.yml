@@ -1,0 +1,15 @@
+# ====================================================================================
+# Inputs and configuration
+
+# ====================================================================================
+# Action metadata
+name: FollowerPlace embed
+author: MatheusMunizera
+description: A place to your followers!
+branding:
+  icon: user-check
+  color: gray-dark
+
+runs:
+  using: 'node20'
+  main: 'src/index.js'
