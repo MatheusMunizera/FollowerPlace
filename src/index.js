@@ -55,7 +55,7 @@ https.get(options, (resp) => {
             content: gameSvg
           }
         },
-        public: false,
+        public: true,
         description: gistsDescription
       }).then(response => {
         console.log(`Gist criado: ${response.data.html_url}`);
