@@ -19,6 +19,4 @@ branding:
 
 runs:
   using: 'node20'
-  pre: |
-    npm install
-  main: 'src/index.js'
+  main: 'dist/index.js'
